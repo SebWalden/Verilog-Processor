@@ -32,7 +32,6 @@ gtkwave processor_waveform.vcd
 
 Instructions are structured as standard 16-bit words divided into logical bit regions:
 
-```text
 | 15          12 | 11       10 | 9         8 | 7              0 |
 +----------------+--------------+-------------+------------------+
 |     Opcode     |      Rx      |     Ry      |    Immediate     |
