@@ -36,7 +36,7 @@ Instructions are structured as standard 16-bit words divided into logical bit re
 +----------------+--------------+-------------+------------------+
 |     Opcode     |      Rx      |     Ry      |    Immediate     |
 
-Opcode map
+## Opcode map
 
 0000 LDI    (0)
 0001 MOV    (1)
