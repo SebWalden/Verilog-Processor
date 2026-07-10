@@ -1,0 +1,18 @@
+Opcode map
+
+0000 LDI    (0)
+0001 MOV    (1)
+0010 ADD    (2)
+0011 SUB    (3)
+0100 MUL    (4)
+0101 MAC    (5)
+0110 PUSH   (6)
+0111 POP    (7)
+1000 CALL   (8)
+1001 RET    (9)
+1010 LD     (a)
+1011 ST     (b)
+1100 JMP    (c)
+1101 JZ     (d)
+1110 JO     (e)
+1111 HALT   (f)
