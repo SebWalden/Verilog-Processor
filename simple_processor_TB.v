@@ -2,7 +2,6 @@
 // Basic simulation testbench for the processor.
 //
 // This file is only for Icarus Verilog / GTKWave simulation.
-// Do not include this file in the Quartus FPGA project.
 
 module simple_processor_TB;
 

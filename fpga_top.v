@@ -1,5 +1,4 @@
 // FPGA top-level wrapper.
-// Use this file as the top-level entity in Quartus.
 //
 // Inputs:
 // CLOCK_50 = FPGA board clock

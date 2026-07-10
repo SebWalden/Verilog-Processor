@@ -1,6 +1,5 @@
 // Top-level full 16-bit processor.
 // Only clk and reset are inputs. The program is stored in instruction_memory.
-// The datapath follows the one-bus style from the project diagram.
 
 module simple_processor(
     clk,

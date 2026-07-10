@@ -19,14 +19,20 @@ The processor is modularised into separate hardware files, each handling a speci
 
 ---
 
+## Running the Code
+
 # 1. Compile the codebase
+
 iverilog -o processor_sim simple_processor_TB.v simple_processor.v instruction_decoder.v instruction_memory.v data_memory.v pc_register.v register16.v status_register.v tri_buffer.v seven_seg_decoder.v
 
 # 2. Run the simulation execution loop (generates processor_waveform.vcd)
+
 vvp processor_sim
 
 # 3. View signal state waveforms in GTKWave
+
 gtkwave processor_waveform.vcd
+
 
 ## Instruction Format
 
@@ -36,7 +42,7 @@ Instructions are structured as standard 16-bit words divided into logical bit re
 +----------------+--------------+-------------+------------------+
 |     Opcode     |      Rx      |     Ry      |    Immediate     |
 
-## Opcode map
+# Opcode map
 
 0000 LDI    (0)
 0001 MOV    (1)
